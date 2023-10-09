@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: black;
+    color: crimson;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+nav {
+    margin: 2em;
+}
+
+.box {
+    display: flex;
+    margin-top: 5em;
+}
+
+.left {
+    flex: 1;
+}
+
+.title {
+    margin-bottom: 2em;
+}
+
+.contacts p {
+    margin-bottom: 1em;
+}
+
+.contacts img {
+    border-radius: 50%;
+    width: 1em;
+    margin-right: 1em;
+}
+
+.right {
+    flex: 2;
+}
+
+.right img {
+    border-radius: 50%;
+    width: 50%;
+}
